@@ -7,21 +7,35 @@
         "ios": "2.2081"
     },
     "version": "1.0.0",
-    "id": "malikhw47.smth",
-    "name": "nam",
+    "id": "malikhw47.aytist",
+    "name": "Aytist",
     "developer": "MalikHw47",
-    "description": "desc.",
-    "tags": ["yes", "yeah"],
+    "description": "aytist jumpscares in game.",
+    "tags": ["joke", "gameplay"],
     "links": {
         "source": "https://github.com/MalikHw/geode-template",
         "community": "https://discord.gg/G9bZ92eg2n"
     },
     "settings": {},
-    "suggested": [
+    "dependencies": [
         {
-            "id": "something",
-            "importance": "recommended",
-            "reason": "n"
+          "id": "user95401.gif-sprites",
+          "version": ">=1.0.0",
+          "importance": "required"
         }
-    ]
+    ],
+    "settings": {
+        "enabled": {
+            "name": "Enable Aytist",
+            "description": "Toggle whether Aytist appears during gameplay.",
+            "type": "bool",
+            "default": true
+        }
+    },
+    "resources": {
+        "files": [
+            "resources/aytist.gif",
+            "resources/aytist.mp3"
+        ]
+    }
 }
